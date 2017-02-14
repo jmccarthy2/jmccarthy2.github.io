@@ -10,13 +10,27 @@
   margin: 0 auto;
 }
 
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1em;
+
+  font-family: arial;
+  text-align: center;
+  color: #ddd;
+  }
+
+nav li {
+  display: inline;
+  }
+
 /* flexible images */
 
 header h1 {
-       font-family: Arial;
+       font-family: verdana;
        font-size: 32px;
        text-align: center;
-       color: #4b1;
+       color: #333;
      }
 
 
@@ -36,43 +50,94 @@ figcaption {
 }
 
 section h2{
-  font-family: Arial, sans-serif;
+  font-family: verdana, sans-serif;
   color: #333;
 }
 
 section ol{
-  font-family: georgia, serif;
+  font-family: arial, sans-serif;
   padding: 2px 0 2px 41px;
   color: #333;
 }
 
 section ul{
-  font-family: georgia, serif;
-  background-color: #fff;
+  font-family: arial, sans-serif;
+
   padding: 2px 0 2px 41px;
   color: #333;
 }
+
+footer {
+  font-family: arial;
+  text-align: center;
+}
+
+
+
+
+
+
+section ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  }
+
+section li {
+  padding: 1em .5em;
+  border-top: 1px solid #ddd;
+  margin: 0 1.2em;
+  }
+
+#ingredients li {
+  list-style: circle;
+  margin-left: 1.2em;
+  }
+
+#instructions li {
+  font: normal 1.02em/1.45 Georgia, serif;
+  margin: 0;
+  }
+
+  a:link    {
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #eee;
+  color: #333;
+
+  }
+
+  a:visited {
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #eee;
+  color:            #aaa;
+  }
 
   </style>
   <link rel="stylesheet" href="css/screen.css">
   <link rel="canonical" href="http://www.closetcooking.com/2012/01/bacon-guacamole-grilled-cheese-sandwich.html">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="MobileOptimized" content="width">
-  <meta name="HandheldFriendly" content="true">
- 
+	<meta name="HandheldFriendly" content="true">
   <title>HTML & CSS Recipe</title>
   <meta name="author" content="Jackie McCarthy">
 </head>
 <body>
-    <main>
+<main>
   <article class="recipe" id="grilledcheese">
 
   <header>
     <h1>Bacon Guacamole Grilled Cheese Sandwich</h1>
+    <nav>
+     <ul>
+      <li><a href="#ingredients"><b>Ingredients</b></a></li>
+      <li><a href="#instructions"><b>Directions</b></a></li>
+     </ul>
+   </nav>
     <figure>
       <img alt="Bacon Gaucamole Grilled Cheese"                        src="http://3.bp.blogspot.com/-2az7lj3scTc/Tyh2XYtnZBI/AAAAAAAANu8/npTstl8FqWI/s800/Bacon%2BGuacamole%2BGrilled%2BCheese%2BSandwich%2B500%2B1953.jpg" width="390">
       <figcaption><em class="all-caps">yummy…</em></figcaption>
-  </figure>
+    </figure>
   </header>
 
 
@@ -104,8 +169,8 @@ section ul{
           <a href="http://www.closetcooking.com/2012/01/bacon-guacamole-grilled-cheese-sandwich.html"><small>Courtesy of Closet Cooking</small></a>
         </footer>
       </section>
-</article>
-    </main>
+ </article>
+</main>
 
 </body>
 
